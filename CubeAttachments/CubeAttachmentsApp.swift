@@ -16,10 +16,6 @@ struct CubeAttachmentsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
-
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
+        }.windowStyle(.plain)
     }
 }
